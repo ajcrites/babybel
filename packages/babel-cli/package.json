@@ -1,6 +1,6 @@
 {
-  "name": "babel",
-  "version": "5.8.29",
+  "name": "babybel",
+  "version": "5.8.29-baby",
   "description": "Turn ES6 code into readable vanilla ES5 with source maps",
   "author": "Sebastian McKenzie <sebmck@gmail.com>",
   "homepage": "https://babeljs.io/",
@@ -22,9 +22,9 @@
     "slash": "^1.0.0"
   },
   "bin": {
-    "babel": "./bin/babel.js",
-    "babel-node": "./bin/babel-node.js",
-    "babel-external-helpers": "./bin/babel-external-helpers.js",
-    "babel-plugin": "./bin/babel-plugin.js"
+    "babybel": "./bin/babel.js",
+    "babybel-node": "./bin/babel-node.js",
+    "babybel-external-helpers": "./bin/babel-external-helpers.js",
+    "babybel-plugin": "./bin/babel-plugin.js"
   }
 }

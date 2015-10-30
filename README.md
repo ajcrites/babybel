@@ -1,30 +1,21 @@
-<p align="center">
-  <a href="https://babeljs.io/">
-    <img alt="babel" src="https://raw.githubusercontent.com/babel/logo/master/babel.png" width="546">
-  </a>
-</p>
+# Babybel - the baby version of Babel
 
-<p align="center">
-  The compiler for writing next generation JavaScript.
-</p>
+**This project will not be maintained**.
 
-<p align="center">
-  <a href="https://travis-ci.org/babel/babel"><img alt="Build Status" src="https://img.shields.io/travis/babel/babel.svg?style=flat"></a>
-  <a href="http://badge.fury.io/js/babel-core"><img alt="npm version" src="https://badge.fury.io/js/babel-core.svg"></a>
-  <a href="https://npmjs.org/package/babel-core"><img alt="Downloads" src="http://img.shields.io/npm/dm/babel-core.svg"></a>
-</p>
+[There have been major changes in `babel` 6.0](http://babeljs.io/blog/2015/10/29/6.0.0/).
 
-<p align="center">
-  <a href="http://issuestats.com/github/babel/babel"><img alt="Issue Stats" src="http://issuestats.com/github/babel/babel/badge/pr?style=flat"></a>
-  <a href="http://issuestats.com/github/babel/babel"><img alt="Issue Stats" src="http://issuestats.com/github/babel/babel/badge/issue?style=flat"></a>
-</p>
+Gone are the days where you can simply `npm install -g babel`
+and `babel-node` on a file to check out destructuring
+assignment, async/await, and other ECMAScript2015+ goodies.
 
-----
+While we all learn how to use the new babel, this package
+will allow us to use it the old way without clobbering the
+`babel` package itself. `npm install -g babel@5` is not
+needed.
 
-<p align="center">
-  For questions and support please visit the <a href="https://babel-slack.herokuapp.com">Slack community</a> or <a href="http://stackoverflow.com/questions/tagged/babeljs">StackOverflow</a>. The Babel issue tracker is <strong>exclusively</strong> for bug reports and feature requests.
-</p>
+With `babybel`, you can use the old CLI commands (as
+`babybel` instead of `babel`, / `babybel-node`, etc.) but
+still have the opportunity to use all the cool new
+babel stuff.
 
-<p align="center">
-  For documentation and website issues please visit the <a href="https://github.com/babel/babel.github.io">babel.github.io</a> repo.
-</p>
+https://github.com/babel/babel
